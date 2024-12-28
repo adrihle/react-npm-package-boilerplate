@@ -17,7 +17,7 @@
     "build": "rollup -c",
     "test": "jest",
     "lint": "eslint src test",
-    "prepare": "npm run test && tsc --build && npm run build",
+    "prepublishOnly": "npm run test && tsc --build && npm run build",
     "init": "sh init.sh"
   },
   "repository": {
