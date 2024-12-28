@@ -1,7 +1,7 @@
 {
   "name": "@adrihfly/YOUR_REPOSITORY_NAME",
-  "version": "1.1.0-beta.4",
-  "description": "A useful react hook for handle screen position and size",
+  "version": "1.0.0-beta.1",
+  "description": "YOUR_DESCRIPTION",
   "main": "dist/index.cjs.js",
   "types": "dist/types/src/index.d.ts",
   "type": "dist/index.esm.js",
@@ -17,7 +17,8 @@
     "build": "rollup -c",
     "test": "jest",
     "lint": "eslint src test",
-    "prepare": "npm run test && tsc --build && npm run build"
+    "prepare": "npm run test && tsc --build && npm run build",
+    "init": "sh init.sh"
   },
   "repository": {
     "type": "git",
